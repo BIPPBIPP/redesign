@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/pc.css">
+    <link rel="stylesheet" href="./css/mo.css">
+    <!-- swiper css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- jqurey -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- js -->
+    <script src="./js/main.js"></script>
+    <script src="./js/common.js"></script>
+    <!-- favi icon -->
+    <link rel="icon" href="./img/favi/favi_ysl.svg">
+    <title>Saint Laurent</title>
+</head>
+<body>
+
+    <!-- headr + menu 구성 -->
+    <div class="topWrap">
+        <header class="mo">
+            <div class="innerHead">
+                <div class="Head1">
+                    <div class="btnMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="./index.html" target="_self">
+                        <img src="./img/SVG/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="Head2">
+                    <div class="topicon">
+                        <a href="#"><img src="./img/SVG/search_icon.svg"  alt="검색 돋보기"></a>            
+                        <!-- <a href="#"><img src="./img/SVG/login_icon.svg" alt="로그인 아이콘"></a>
+                        <a href="#"><img src="./img/SVG/shop_icon.svg" lt="장바구니 아이콘"></a>             -->
+                    </div>
+                    <!-- <div class="searchMenu">
+                        <form action="https://www.google.com/search" method="GET">
+                            <div class="searchicon">
+                                <input type="text" name="q">
+                                <button type="submit"></button>
+                            </div>
+                        </form>
+                        <span><a href="#"></a></span>
+                        <span><a href="#"></a></span>
+                    </div> -->
+                </div>
+            </div>
+        </header>
+        <header class="pc">
+            <div class="innerHead mainHead">
+                <div class="Head1">
+                    <div class="btnMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="logo">
+                        <a href="./index.html" target="_self">
+                            <img src="./img/SVG/logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="toptitle">
+                    <h1></h1>
+                </div>
+                <div class="Head2">
+                    <div class="topicon">
+                        <div class="search">
+                            <form action="https://www.google.com/search" method="GET">
+                                <div class="search">
+                                    <input type="text" name="q">
+                                    <button type="submit"></button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- <a href="#"><img src="./img/SVG/search_icon.svg"  alt="검색 돋보기"></a>             -->
+                        <a href="#"><img src="./img/SVG/login_icon.svg" alt="로그인 아이콘"></a>
+                        <a href="#"><img src="./img/SVG/shop_icon.svg" lt="장바구니 아이콘"></a>            
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- menu -->
+        <nav>
+            <ul class="gnb">
+                <li>
+                    <a href="#"> 
+                        summer collection 23
+                        <span class="depi"></span>
+                    </a>
+                    <ul class="gnb_submenu">
+                        <li><a href="./sub1.html" target="_blank" onclick="hrefLink">woman's</a></li>
+                        <li><a href="#">man's</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        woman
+                        <span class="depi"></span>
+                    </a>
+                    <ul class="gnb_submenu">
+                        <li><a href="#">Clothes</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">Bag</a></li>
+                        <li><a href="#">accersory</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        man
+                        <span class="depi"></span>
+                    </a>
+                    <ul class="gnb_submenu">
+                        <li><a href="#">Clothes</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">Bag</a></li>
+                        <li><a href="#">accersory</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="lnb">
+                <li>
+                    <a href="#"> 
+                        la masion
+                        <span class="depi"></span>
+                    </a>
+                    <ul class="lnb_submenu">
+                        <li><a href="./sub2.html">saint laurent</a></li>
+                        <li><a href="./sub3.html">Susbility</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        collection
+                        <span class="depi"></span>
+                    </a>
+                    <ul class="lnb_submenu">
+                        <li><a href="#">woman's f/w 2023</a></li>
+                        <li><a href="#">man's f/w 2023</a></li>
+                        <li><a href="#">woman's s/s 2023</a></li>
+                        <li><a href="#">man's s/s 2023</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        saint laurent self
+                        <span class="depi"></span>
+                    </a>
+                    <ul class="lnb_submenu">
+                        <li><a href="#">self07</a></li>
+                        <li><a href="#">self06</a></li>
+                        <li><a href="#">self05</a></li>
+                        <li><a href="#">self04</a></li>
+                        <li><a href="#">self03</a></li>
+                        <li><a href="#">self02</a></li>
+                        <li><a href="#">self01</a></li>
+                        <li><a href="#">self</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="menuImg">
+                <img src="./img/menu/menu_IMAGE.jpg" alt="">
+            </div>
+        </nav>
+    </div>
+    
+    <!-- main 화면 구성 -->
+    <div class="container">
+        <main>
+            <div class="station1 swiper">
+                <ul class="train swiper-wrapper">
+                    <li class="swiper-slide swiper-slide-active">
+                        <div class="slide1">
+                            <div class="backimg">
+                                <img src="./img/main1.jpg" alt="배경이미지">
+                            </div>
+                            <div class="mainimg">
+                                <img src="./img/main2.jpg" alt="메인이미지">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slide2 swiper-slide">
+                        <video src="./video/show/SAINT LAURENT - WOMEN'S SUMMER 23.mp4" autoplay muted loop></video>
+                    </li>
+                    <li class="slide3 swiper-slide">
+                        <img src="./img/main3.jpg" alt="메인이미지3">
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+            <div class="mainAct">
+                <div class="circle"></div>
+                <div class="typo">
+                    <a href="./sub1.html">
+                        <div class="triangle">
+                            <img  src="./img/SVG/triangle.svg" alt="triangle">
+                        </div>
+                        <img src="./img/SVG/typograpy_summer23.svg" alt="summer collection 23">
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <div class="footwrap">
+            <div class="btnTop">
+                <img src="./img/SVG/toup.svg" alt="">
+            </div>
+            <footer class="pc">
+                <div class="fContainer">
+                    <div class="fLogo">
+                        <img src="./img/SVG/logo.svg" alt="saint laurent logo">
+                    </div>
+                    <div class="fMenu">
+                        <div class="mLeft">
+                            <div class="select">
+                                <section>
+                                    <label for="del_country">배송지</label>
+                                    <select name="" id="del_country">
+                                        <option>대한민국 (KOR)</option>
+                                        <option>일본 (JAP)</option>
+                                        <option>중국 (CHI)</option>
+                                        <option>미국 (USA)</option>
+                                    </select>
+                                </section>
+                                <section>
+                                    <label for="lang_country">언어</label>
+                                    <select name="" id="lang_country">
+                                        <option>한국어 (Korean)</option>
+                                        <option>영어 (English)</option>
+                                        <option>중국어 (Chinese)</option>
+                                        <option>일본어 (Japanese)</option>
+                                    </select>
+                                </section>
+                            </div>
+                            <section class="address">
+                                <p>사업자등록증에 기재된 회사명 :입생로랑코리아 유한책임회사 | 사업자등록번호 211-88-87468   </p>
+                                <p>사업자등록증에 기재된 대표자 성명 : 히로후미 탐보 | 제2022-서울강남-06159호</p>
+                                <p>회사 주소 : 대한민국 서울시 강남구 영동대로 517 아셈타워 13층 | 연락처: +82 26 10 52 228 </p>
+                            </section>
+                        </div>
+                        <div class="mMid">
+                            <section class="fMe1">
+                                <ul>
+                                    <li><a href="#"><h4>매장찾기</h4></a>
+                                        <ul>
+                                            <li><a href="#">매장 위치 찾기</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="fMe2">
+                                <ul>
+                                    <li><a href="#"><h4>고객서비스</h4></a>
+                                        <ul>
+                                            <li><a href="#"> 주문내역</a></li>
+                                            <li><a href="#"> 배송</a></li>
+                                            <li><a href="#"> 반품</a></li>
+                                            <li><a href="#"> 방문 예약하기</a></li>
+                                            <li><a href="#"> +82 26105228 이메일 라이브 채팅</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="fMe3">
+                                <ul>
+                                    <li>
+                                        <a href="#"><h4>Saint Laurent</h4></a>
+                                        <ul>
+                                            <li><a href="#">커리어</a></li>
+                                            <li><a href="#">법적고지</a></li>
+                                            <li><a href="#">ACCESSIBILITY</a></li>
+                                            <li><a href="#">뉴스레터</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="mRight footicon">
+                            <a href="#"><img src="./img/icon/kakaotalk.svg" alt="카카오톡"></a>
+                            <a href="#"><img src="./img/icon/facebook.svg" alt="페이스북"></a>
+                            <a href="#"><img src="./img/icon/twitter.svg" alt="트위터"></a>
+                            <a href="#"><img src="./img/icon/inastagram.svg" alt="인스타그램"></a>
+                            <a href="#"><img src="./img/icon/youtube.svg" alt="유투브"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+        
+            </footer>
+    
+            <footer class="mo">
+                <div class="fLogo">
+                    <img src="./img/SVG/logo.svg" alt="saint laurent logo">
+                </div>
+                <div class="footContainer">
+                    <div class="footMenu1">
+                        <div class="fmLeft">
+                            <div class="select">
+                                <section>
+                                    <label for="del_country">배송지</label>
+                                    <select name="" id="del_country">
+                                        <option>대한민국 (KOR)</option>
+                                        <option>일본 (JAP)</option>
+                                        <option>중국 (CHI)</option>
+                                        <option>미국 (USA)</option>
+                                    </select>
+                                </section>
+                                <section>
+                                    <label for="lang_country">언어</label>
+                                    <select name="" id="lang_country">
+                                        <option>한국어 (Korean)</option>
+                                        <option>영어 (English)</option>
+                                        <option>중국어 (Chinese)</option>
+                                        <option>일본어 (Japanese)</option>
+                                    </select>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="fmMid">
+                            <ul class="fmid1">
+                                <li><a href="#"><h4>매장찾기</h4></a>
+                                    <ul>
+                                        <li><a href="#">매장 위치 찾기</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="fmid2">
+                                <li><a href="#"><h4>고객서비스</h4></a>
+                                    <ul>
+                                        <li><a href="#"> 주문내역</a></li>
+                                        <li><a href="#"> 배송</a></li>
+                                        <li><a href="#"> 반품</a></li>
+                                        <li><a href="#"> 방문 예약하기</a></li>
+                                        <li><a href="#"> +82 26105228 이메일 라이브 채팅</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="fmid3">
+                                <li>
+                                    <a href="#"><h4>Saint Laurent</h4></a>
+                                    <ul>
+                                        <li><a href="#">커리어</a></li>
+                                        <li><a href="#">법적고지</a></li>
+                                        <li><a href="#">ACCESSIBILITY</a></li>
+                                        <li><a href="#">뉴스레터</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footBottom">
+                        <section class="address">
+                            <p>사업자등록증에 기재된 회사명 :입생로랑코리아 유한책임회사 | 사업자등록번호 211-88-87468   </p>
+                            <p>사업자등록증에 기재된 대표자 성명 : 히로후미 탐보 | 제2022-서울강남-06159호</p>
+                            <p>회사 주소 : 대한민국 서울시 강남구 영동대로 517 아셈타워 13층 | 연락처: +82 26 10 52 228 </p>
+                        </section>
+                        <div class="footicon">
+                            <a href="#"><img src="./img/icon/kakaotalk.svg" alt="카카오톡"></a>
+                            <a href="#"><img src="./img/icon/facebook.svg" alt="페이스북"></a>
+                            <a href="#"><img src="./img/icon/twitter.svg" alt="트위터"></a>
+                            <a href="#"><img src="./img/icon/inastagram.svg" alt="인스타그램"></a>
+                            <a href="#"><img src="./img/icon/youtube.svg" alt="유투브"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+               
+                
+        
+            </footer>
+        </div>
+    </div>
+   
+    
+</body>
+</html>

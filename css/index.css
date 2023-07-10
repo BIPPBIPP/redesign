@@ -1,0 +1,26 @@
+/* rest */
+*{margin: 0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: normal;}
+a{text-decoration: none; color: inherit;}
+ul,ol{list-style: none;}
+address,em,i{font-style: normal;}
+strong,b{font-weight: normal;}
+select{border-style: none;}
+
+/* 2.common */
+/* .sub4{display: none;} */
+html{
+    /* border: 10px solid red; */
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
